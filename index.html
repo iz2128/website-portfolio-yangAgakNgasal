@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <!-- Link Css -->
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <!-- link font FontAwesome -->
+    <link rel="stylesheet" href="asset/FontAwesome/css/all.css">
+
+
+
+</head>
+<body>
+    <!--  Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+          <div class="container">
+            
+            <a class="navbar-brand" href="#"><img src="img/Logo.png.png" alt="" width="50"></a>
+            
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" aria-current="page">Home<span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                </ul>
+
+                <form class="d-flex my-2 my-lg-0">
+                    <input class="form-control me-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+      </div>
+    </nav>
+
+
+    
+
+    <!-- Jumbotrom -->
+    <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container py-5">
+          <h1 class="display-5 fw-bold">I'm <span class="text-success">Faiz Azzhorif</span> </h1>
+          <p class="col-md-8 fs-4">Programmer, web designer, student, and gamer</p>
+          <button class="btn btn-outline-success btn-lg" type="button"> <i class="fa-solid fa-laptop"></i> About Me</button>
+        </div>
+    </div>
+
+
+    <!-- Carousel -->
+    <div class="container">
+        <div class="row">
+            <div class="col sm 6">
+                <div class="paragraf"><h3 class="text-secondary">My Favorite Young Footballer</h3></div>
+                <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Fourth slide"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="img/download (10).jfif" class="w-100 d-block" alt="First slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="text-info">Marcus Rashford</h3>
+                                <p class="text-light">Pos : LW,ST,CF,RW,CAM <br> Club : Manchester United <br> Nation : England</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Mbappe.jfif" class="w-100 d-block" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="text-light"> Kylian Mbappe</h3>
+                                <p class="text-light">Pos : LW,ST,RW,LM,RM,CF,CAM <br> Club : Paris Saint Germany <br> Nation : France</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Haaland.jfif" class="w-100 d-block" alt="Third slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="text-light">Erling Haaland</h3>
+                                <p class="text-light">Pos : ST & CF <br> Club : Manchester City <br> Nation : Norway</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Valverde.jfif" class="w-100 d-block" alt="Third slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="text-light">Federico Valverde</h3>
+                                <p class="text-light">Pos : CM, CDM, CAM, RM, RW, RB, CF, ST <br> Club : Real Madrid <br> Nation : Uruguay</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col sm 6">
+                <h1 class="display-6">About Me</h1>
+                <dl class="row">
+                    <dt class="col-sm-4"> <li class="fa-solid fa-user fa-lg"></li> Nama   </dt>
+                    <dd class="col-sm-8">Faiz Azzhorif Edwin</dd>
+                    <dt class="col-sm-4"><li class="fa-solid fa-star fa-lg"></li>Umur     </dt>
+                    <dd class="col-sm-8">14 Tahun</dd>
+                    <dt class="col-sm-4"><li class="fa-solid fa-calendar fa-lg"></li> Tanggal Lahir   </dt>
+                    <dd class="col-sm-8">21 Agustus 2008</dd>
+                    <dt class="col-sm-4"><li class="fa-solid fa-location fa-lg"></li> Alamat </dt>
+                    <dd class="col-sm-8">Kel. Padang Tiakar Hilir, Kec. Payakumbuh Timur, Kota Payakumbuh, Prov. Sumatera Barat</dd>
+                    <dt class="col-sm-4"><li class="fa-solid fa-user-tie fa-lg"></li> Pekerjaan </dt>
+                    <dd class="col-sm-8">Pelajar/Mahasiswa</dd>
+                        
+                    </dd>
+                </dl>
+                <a name="" id="" class="btn btn-outline-success" href="#" role="button">Read More</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <figure class="text-center mt-5">
+    <blockquote class="blockquote">
+      <p> "Hidup itu gak perlu motivasi-motivasi guys." <br> "Kalian mau motivasi atau mau mati guys?."</p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      <cite title="Source Title">AE Pai & BTR Kyy (via livestream nimo tv)</cite>
+    </figcaption>
+    </figure>
+
+
+
+    <h1 class="display-4 text-center mt-5">Skill</h1>
+
+    <div class="container">
+        <div class="progress text-center mt-5">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 75.9%;"
+                aria-valuenow="75.9" aria-valuemin="0" aria-valuemax="100">Html</div>
+        </div>
+        <div class="progress text-center mt-5">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 78.7%;"
+                aria-valuenow="78.7" aria-valuemin="0" aria-valuemax="100">Css</div>
+        </div>
+        <div class="progress text-center mt-5">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 78.4%;"
+                aria-valuenow="78.4" aria-valuemin="0" aria-valuemax="100">Javascript</div>
+        </div>
+        <div class="progress text-center mt-5">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 98.9%;"
+                aria-valuenow="98.9" aria-valuemin="0" aria-valuemax="100">Desain Grafis</div>
+        </div>
+    </div>
+
+
+
+<h1 class="display-4 text-center mt-5">Portfolio</h1>
+ 
+<div class="container mt-5">
+    <!-- baris 1 -->
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="card">
+                <img class="card-img-top" src="img/vinicius-junior_169.jpeg" alt="Title">
+                <div class="card-body">
+                    <h4 class="card-title">Vinicius Junior</h4>
+                    <p class="card-text">Pos : LW, RW, CF, ST <br> Club : Real Madrid <br> Nation : Brazil</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card">
+                <img class="card-img-top" src="img/cancelo.jfif" alt="Title">
+                <div class="card-body">
+                    <h4 class="card-title">Joao Cancelo</h4>
+                    <p class="card-text">Pos : LB, RB, RM, LM, CM, CDM, <br> Club : Manchester City <br> Nation : Portugal</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card">
+                <img class="card-img-top" src="img/de-ligt.jfif" alt="Title">
+                <div class="card-body">
+                    <h4 class="card-title">Matthijs De Light</h4>
+                    <p class="card-text">Pos : CB, CDM <br> Club : Bayen Munich <br> Nation : Netherland</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- baris 1 -->
+    <br>
+    <!-- baris 2 -->
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="card">
+                <img class="card-img-top" src="img/000 (2).jfif" alt="Title">
+                <div class="card-body">
+                    <h4 class="card-title">Dayot Upamecano</h4>
+                    <p class="card-text">Pos : CB, CDM, RB<br> Club : Bayen Munich <br> Nation : France</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card">
+                <img class="card-img-top" src="img/Davies.jpg" alt="Title">
+                <div class="card-body">
+                    <h4 class="card-title">Alphonso Davies</h4>
+                    <p class="card-text">Pos : LB, LM, LW, CAM<br> Club : Bayen Munich <br> Nation : Canada</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card">
+                <img class="card-img-top" src="img/09.jfif" alt="Title">
+                <div class="card-body">
+                    <h4 class="card-title">Joao Felix</h4>
+                    <p class="card-text">Pos : LW, LM, CF, CAM, ST, RW, RM <br> Club : Atletico Madrid <br> Nation : Portugal</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- baris 2 -->
+</div>
+<br>
+<br>
+
+<!-- Contact -->
+
+<div class="container my-5">
+    <section class="text-center  dark-gray-text mb-5">
+        <div class="card"> 
+            <div class="card-body rounded-top border-top-p-5">
+                <h3 class="font-weight-bold my-4">Contact Me</h3>
+                <p class="font-weight-light mb-4 pb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <form action="#" method="post"> 
+                <div class="row">
+                    <div class="col-lg-6">
+                         <div class="mb-3">
+                             <input type="text" 
+                             class="form-control" name="" id="" aria-describedby="helpId" placeholder="Nama">
+                        </div>    
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mb-3">
+                             <input type="text" 
+                              class="form-control" name="" id="" aria-describedby="helpId" placeholder="Email">
+                        </div>    
+                    </div>
+                </div>
+                <div class="row">
+                         <div class="mb-3">
+                             <input type="text" 
+                             class="form-control" name="" id="" aria-describedby="helpId" placeholder="Subject/Perihal">
+                        </div>   
+                </div>
+                <div class="mb-3">
+                  <textarea class="form-control" name="" id="" placeholder="Berikan Pesan" rows="3"></textarea>
+                </div>
+
+                <button type="button" class="btn btn-success">Kirim</button>
+            </form> 
+            </div>
+        </div>
+    </section>
+
+
+
+</div>
+
+
+
+
+<!-- akhir Contact -->
+
+
+
+<!-- foooter -->
+<footer class="page-footer font-small-blue">
+<div class="footer-copyright text-center py-3">
+   &copy; 2022 Copyright :
+   <a href="#"> Faiz Azzhorif Edwin </a> 
+</div>
+
+</footer>
+<!-- foooter -->
+
+
+    <script src="asset/js/bootstrap.min.js"></script>
+</body>
+</html>
